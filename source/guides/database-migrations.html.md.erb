@@ -79,11 +79,11 @@ the end of the type to make the column optional (allow NULL)
 
     # Run custom SQL with execute
     #
-    # execute "CREATE UNIQUE INDEX things_title_index ON things (title);"
+    # execute "CREATE UNIQUE INDEX users_title_index ON users (title);"
   end
 
   def rollback
-     drop :things
+     drop :users
   end
 end
 ```
